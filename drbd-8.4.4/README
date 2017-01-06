@@ -14,3 +14,7 @@ Please refer to the web pages at
 
 to find maintained information.
 
+Because open DRBD just support A,B,C,protocol,and those protocol will blocked IO on Application.
+This branch add a S protocol. 
+the S protocol is full async protocol to drbd.
+and S protocol never blocked the IO process on ther master node.
